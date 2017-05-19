@@ -51,7 +51,7 @@ public class GameWindow extends Applet implements Runnable{
 			ball.moveBall(this,paddle);
 			brick.checkBallCollision(brick, ball, brickRows, brickColumns);
 			try{
-				Thread.sleep(100);
+				Thread.sleep(80);
 				
 			}catch(InterruptedException exception){
 				System.out.println("Oops! Something went wrong.");
